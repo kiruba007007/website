@@ -1,0 +1,186 @@
+body{
+    /* background-color: burlywood; */
+    font-family: SQMarket-Medium, SQMarket, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.top_content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.nav_bar>nav{
+    display: flex;
+}
+.nav_bar>nav>a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(43, 42, 42, 0.904);
+    margin-right: 15px;
+    margin-top: 15px;
+    text-wrap: nowrap;
+}
+.login{
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.login>a{
+    text-decoration: none;
+    color: rgba(43, 42, 42, 0.904);   
+}
+#sign_up{
+    color: #3374ff;
+    border: 1.5px solid rgb(66, 153, 252);
+    margin-left: 20px;
+    padding:10px 30px;
+    border-radius: 5px;
+    text-wrap: nowrap;
+}
+/* website content div and picture */
+.website_btn{
+    margin-bottom: 70px;
+}
+.web_built{
+    text-align: center;
+    width: 780px;
+    margin:60px auto 40px auto;
+    color: rgba(43, 42, 42, 0.979);
+    font-size: 43px;
+}
+.website_btn>button{
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+    background-color:#3374ff;
+    border: none;
+    padding: 13px 40px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.website_btn>button:hover{
+    background-color:#0e48c7;
+    transition: 1s;
+}
+
+.person_img>img{
+    height: auto;
+    display: inline-block;
+    object-position: center;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    display: block;
+}
+/* more design content in business */
+.more_designsite{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    color: rgba(43, 42, 42, 0.979);
+    margin-bottom: 50px;
+}
+.design_p{
+    letter-spacing: .5px;
+    word-spacing: 1px;
+    line-height: 1.8rem;
+    margin-bottom: 50px;
+}
+.getstart{
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+    background-color:#3374ff;
+    border: none;
+    text-decoration: none;
+    padding: 11px 25px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+.getstart:hover{
+    background-color:#0e48c7;
+    transition: 1s;
+}
+.mr_design{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #3374ffef;
+}
+.mr_design:hover{
+    color: #2054c5dc;
+}
+/* banner image */
+.banner_img>img{
+    width: 100%;
+}
+/* growth content start */
+.growth_content{
+    margin: 70px auto;
+}
+.growth_tit>h2{
+    font-size:30px;
+    text-align: center;
+    display: block;
+    width: 451px;
+    margin: 0 auto;
+    color: rgba(43, 42, 42, 0.966);
+    line-height:40px;
+}
+.growth_tit{
+    margin-bottom: 80px;
+}
+/* whole product content in growth */
+.wholeproduct{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto 200px;
+    text-align: center;
+}
+.proimg{
+    width: 100px;
+    height: auto;
+}
+.tit_growth{
+    font-size: 15px;
+}
+.grow_p{
+    color: rgba(44, 44, 53, 0.918);
+    font-weight:400;
+    font-size: 13.5px;
+    line-height: 1.8em;
+}
+.card_grow{
+    margin-right: 40px;
+}
+.product_img>img{
+    width: 100%;
+}
+.success_div{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.con_success{
+    padding-bottom: 53px;
+}
+.con_success>h2{
+    color: rgb(53, 50, 50);
+    font-size: 22px;
+}
+.con_success>p{
+    width: 600px;
+    margin: 0 auto;
+    line-height: 1.7rem;
+    color: rgb(66, 62, 62);
+    font-size: 17px;
+}
+.person_success>img{
+    width:100%;
+}
+.any_time{
+    margin-top: 70px;
+    font-size: 30px;
+    margin-bottom:50px;
+    color: rgb(41, 33, 33);
+}
